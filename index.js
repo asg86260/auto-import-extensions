@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import config from '../vite.config.js';
+import config from './vite.config.js';
 const { resolve } = config;
 
 const projectDirectory = './src'; // Replace with your project's directory
