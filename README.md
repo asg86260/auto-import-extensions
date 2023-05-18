@@ -7,3 +7,5 @@ and I didn't want to manually update all our imports this script auto detected t
 We only have .vue and .js files so thats all i needed to handle. this could be updated to find the file, read the ext from `fs` and use that instead to support more .ts, .cjs, whatever else.
 
 This also reads your aliases from your `vite.config.js` which it's assuming is in the root of your project. 
+
+to run, just slap the script in your project next to your vite.config.js file and run it with node.
