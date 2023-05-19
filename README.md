@@ -13,6 +13,7 @@ to run, just slap the script in your project next to your vite.config.js file an
 
 ### running
 - copy paste script next to your vite.config.js if you have one, or just the root of your project.
+- if your code doesn't live in `src/` then you'll want to update the script to point at your path.
 - `node index.js` will run it and output what files have been updated.
 
 
